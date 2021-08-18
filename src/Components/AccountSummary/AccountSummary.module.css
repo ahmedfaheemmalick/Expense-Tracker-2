@@ -1,0 +1,32 @@
+.bal_cont {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 20px 20px 20px;
+}
+
+.bal_cont span {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Ubuntu";
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 2xp;
+}
+
+.inc_exp_cont {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 40px 20px 40px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Ubuntu";
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.minus {
+  color: red;
+}
+
+.plus {
+  color: green;
+}

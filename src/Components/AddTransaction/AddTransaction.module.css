@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container form {
+  text-align: center;
+}
+
+.container form input {
+  height: 40px;
+  width: 90%;
+  margin: 7px;
+  outline: none;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  height: 40px;
+  width: 90%;
+  margin: 7px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: "Big Shoulders Display", cursive;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(
+    270deg,
+    rgba(217, 59, 98, 1),
+    rgba(233, 88, 96, 1)
+  );
+}
