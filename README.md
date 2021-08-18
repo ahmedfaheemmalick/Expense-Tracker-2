@@ -1,6 +1,6 @@
 # Expense Tracker App
  
-[live Site](https://a-expense-tracker-app-1.netlify.app/)
+[live Site](https://a-expense-tracker-app-2.netlify.app/)
 
 ![Expense Tracker App](/public/expensetracker.png)
 
