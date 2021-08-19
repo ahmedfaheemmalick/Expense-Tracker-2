@@ -1,5 +1,8 @@
 .bal_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   padding: 25px 20px 20px 20px;
 }
@@ -13,7 +16,11 @@
 }
 
 .inc_exp_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   text-align: center;
   padding: 20px 40px 20px 40px;

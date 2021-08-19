@@ -1,15 +1,37 @@
 * {
   margin: 0%;
   padding: 0%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   min-height: 100vh;
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(rgba(217, 59, 98, 0.9)),
+    to(rgba(233, 88, 96, 0.9))
+  );
+  background-image: -o-linear-gradient(
+    right,
+    rgba(217, 59, 98, 0.9),
+    rgba(233, 88, 96, 0.9)
+  );
   background-image: linear-gradient(
     270deg,
     rgba(217, 59, 98, 0.9),
@@ -22,4 +44,3 @@ body {
   background-color: white;
   border-radius: 8px;
 }
-

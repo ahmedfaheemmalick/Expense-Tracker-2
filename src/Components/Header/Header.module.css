@@ -1,6 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
 
 .container {
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(rgba(217, 59, 98, 1)),
+    to(rgba(233, 88, 96, 1))
+  );
+  background-image: -o-linear-gradient(
+    right,
+    rgba(217, 59, 98, 1),
+    rgba(233, 88, 96, 1)
+  );
   background-image: linear-gradient(
     270deg,
     rgba(217, 59, 98, 1),
