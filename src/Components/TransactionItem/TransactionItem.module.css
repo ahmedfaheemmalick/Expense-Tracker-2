@@ -14,18 +14,15 @@
 
 .container span {
   font-size: 19px;
-  font-family: "Ubuntu";
   font-weight: 400;
 }
 
 .left_sect {
   text-align: justify;
-  font-family: "Ubuntu";
   margin: 10px;
 }
 
 .right_sect {
-  font-family: "Ubuntu";
   margin: 20px;
 }
 
