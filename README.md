@@ -13,3 +13,5 @@ This is the code repo of Expnense Tracker App. There I used:
   1. Clone this Project
   2. Install dependencies with `yarn` or `npm install`
   3. Start Project with `npm start` or `yarn start`
+
+*great*
